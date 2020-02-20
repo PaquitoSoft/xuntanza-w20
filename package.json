@@ -1,0 +1,16 @@
+{
+  "name": "event-hour",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "static ./src",
+    "deploy": "surge src --domain xuntanza.surge.sh"
+  },
+  "author": "PaquitoSoft",
+  "license": "ISC",
+  "devDependencies": {
+    "node-static": "^0.7.11",
+    "surge": "^0.21.3"
+  }
+}
