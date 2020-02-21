@@ -680,6 +680,10 @@ img {
 	position: relative;
 }
 
+.ab-event-detail {
+	margin-bottom: 52px; 
+}
+
 .ab-event-detail .section-title {
 	margin-bottom: 52px;
 	text-align: left;
@@ -704,9 +708,20 @@ img {
 	margin-top: 53px;
 }
 
+.event-desc-title {
+	color: #25163d;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 28px;
+	margin-bottom: 15px;
+	margin-top: 15px;
+}
+
+.ab-event-desc p {
+	margin-bottom: 15px;
+}
 .ab-event-single-img-top li {
 	border: 4px solid #ddd;
-	margin-bottom: 3px;
 	width: 100%;
 }
 
