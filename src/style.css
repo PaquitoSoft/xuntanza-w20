@@ -51,6 +51,9 @@ Style css
 /* ---------------------------------------------
         ==Default setting==
 --------------------------------------------- */
+html {
+	scroll-behavior: smooth;
+}
 
 body {
 	margin: 0px;
@@ -405,12 +408,13 @@ img {
 ---------------------------------------------------*/
 
 .header-area {
-	position: absolute;
+	position: fixed;
 	left: 0;
 	top: 0;
 	width: 100%;
 	z-index: 4;
 	border-bottom: 1px solid #dddddd;
+	background-color: rgba(8, 0, 21, 0.3)
 }
 
 .header-logo {
@@ -559,6 +563,7 @@ img {
 	font-size: 36px;
 	font-weight: 600;
 	line-height: 68px;
+	font-family: 'Rajdhani', sans-serif;
 }
 
 .banner-title span {
@@ -567,9 +572,9 @@ img {
 	color: #c6c6c6;
 	display: block;
 	font-weight: 700;
-	font-size: 60px;
+	font-size: 100px;
 	text-transform: uppercase;
-	font-family: 'Luckiest Guy', 'Open Sans', sans-serif;
+	font-family: 'Monoton', 'Open Sans', sans-serif;
 }
 
 .banner-table {
@@ -4689,7 +4694,8 @@ body {
 }
 
 .banner-title span {
-	letter-spacing: 4px;
+	letter-spacing: 3px;
+	line-height: 130%;
 }
 
 .speaker-bio a {
