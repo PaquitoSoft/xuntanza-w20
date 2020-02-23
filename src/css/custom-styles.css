@@ -64,8 +64,12 @@ body {
 	justify-content: center;
 }
 
-.faq-area .section-title h2 {
-	/* color: #fff; */
+.faq-main-content {
+	width: 75%;
+}
+
+.faq-panel-body p {
+	margin: 0 0 10px;
 }
 
 .footer-bottom-area img {
