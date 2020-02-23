@@ -22,6 +22,16 @@ body {
 	font-family: 'Rajdhani', 'Open Sans', sans-serif;
 }
 
+@media only screen and (max-width: 767px) {
+	.banner-title {
+		display: block;
+	}
+	.banner-title span {
+		font-size: 50px;
+		line-height: 50px;
+	}	
+}
+
 .speaker-bio a {
 	text-transform: none;
 	font-size: 13px;
@@ -66,6 +76,12 @@ body {
 
 .faq-main-content {
 	width: 75%;
+}
+
+@media only screen and (max-width: 767px) {
+	.faq-main-content {
+		width: 100%;
+	}
 }
 
 .faq-panel-body p {
