@@ -146,7 +146,7 @@
 	//google map
 	var googleMapSelector = $('#contactgoogleMap'),
 		// myCenter = new google.maps.LatLng(33.8615062,63.2091465);
-		myCenter = new google.maps.LatLng(43.371330, -8.396361);
+		myCenter = new google.maps.LatLng(43.370182, -8.399172);
 
 	function initialize() {
 		var mapProp = {
