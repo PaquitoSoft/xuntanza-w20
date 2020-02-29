@@ -29,14 +29,25 @@ body {
 }
 
 @media only screen and (max-width: 767px) {
+	.banner-area .container {
+		padding: 0;
+	}
 	.banner-title {
 		display: block;
 	}
 	.banner-title span {
-		font-size: 40px;
+		font-size: 50px;
+		letter-spacing: -2px;
 		line-height: 50px;
 	}	
 }
+
+@media only screen and (max-width: 350px) {
+	.banner-title span {
+		font-size: 45px;
+	}
+}
+
 
 .speaker-bio a {
 	text-transform: none;
