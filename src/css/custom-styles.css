@@ -97,3 +97,87 @@ body {
 .footer-bottom-area img {
 	width: 16px;
 }
+
+
+.eventschedule-area {
+	padding: 114px 0;
+	/* background: url(img/event-schedule/event-schedule-bg.jpg) no-repeat scroll 0 0 /cover; */
+	/* position: relative; */
+	background: rgba(8, 0, 21, 0.95);
+}
+
+.eventschedule-area .section-title {
+	margin-bottom: 72px;
+}
+
+.eventschedule-area .section-title h2 {
+	color: #ddd;
+}
+
+
+.event-summary {
+	color: #b0b0b0;
+	margin-bottom: 40px;
+}
+
+.event-summary__title-section {
+	margin-bottom: 16px;
+	border-bottom: 1px solid #b0b0b0;
+}
+.event-summary__time {
+	font-size: 24px;
+	font-weight: 600;
+}
+.event-summary__time .icofont {
+	font-size: 14px;
+	color: #ef5e4e;
+	position: relative;
+	top: -3px;
+}
+
+.event-summary.dj .event-summary__title-section {
+	padding-bottom: 10px;
+}
+
+.event-summary__title-section {
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+}
+.event-summary__title {
+	color: ddd;
+	font-style: italic;
+	font-size: 16px;
+	margin-bottom: 4px;
+}
+.event-summary.dj .event-summary__title {
+	color: #fff;
+}
+.event-summary__dj-image img {
+	width: 120px;
+}
+
+.event-summary__description-section {
+	font-size: 14px;
+}
+.event-summary.dj .event-summary__description-section {
+	width: 75%;
+}
+.event-summary__description-section p {
+	margin-bottom: 10px;
+}
+.event-summary__description-section strong {
+	font-size: 16px;
+	color: #fff;
+}
+
+@media only screen and (max-width: 767px) {
+	.event-summary.dj .event-summary__description-section {
+		width: 100%;
+	}
+
+	.event-summary__dj-image img {
+		width: 80px;
+	}
+	
+}

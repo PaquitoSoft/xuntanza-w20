@@ -750,29 +750,6 @@ img {
                Start Event Schedule Area css
 ---------------------------------------------------*/
 
-.eventschedule-area {
-	padding: 114px 0;
-	background: url(img/event-schedule/event-schedule-bg.jpg) no-repeat scroll 0 0 /cover;
-	position: relative;
-}
-
-.eventschedule-area .section-title {
-	margin-bottom: 72px;
-}
-
-.eventschedule-area .section-title h2 {
-	color: #ddd;
-}
-
-.eventschedule-area:after {
-	position: absolute;
-	left: 0;
-	top: 0;
-	width: 100%;
-	height: 100%;
-	background: rgba(8, 0, 21, 0.95);
-	content: "";
-}
 
 .timeline-area {
 	position: relative;
